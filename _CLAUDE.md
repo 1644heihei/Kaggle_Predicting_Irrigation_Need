@@ -134,3 +134,34 @@ cv_params:
 - Is the model using all available features effectively?
 - Which features contribute most to predictions?
 - Is class balance maintained across folds?
+
+## AI Assistant Interaction Guidelines
+
+⚠️ **Claude は以下のルールに従うこと**
+
+### 行動ルール
+
+1. **コード変更は禁止**: 自動的にコードを変更しない
+   - 方針・提案のみを出す
+   - ユーザーが明確に「実装してほしい」と言わない限り、変更しない
+
+2. **提案時のフォーマット**:
+   - 何が問題かを説明
+   - 解決策を複数提示
+   - メリット・デメリットを記載
+   - ユーザーの選択を待つ
+
+3. **質問がある場合**:
+   - 不明な点は必ず確認してから動く
+   - 仮定で動かない
+   - 複数の解釈がある場合は選択肢を示す
+
+### 例外: 自動対応してOKなケース
+
+- ファイルの参照（readのみ）
+- 情報の検索
+- 既存ファイルの確認
+- エラー原因の分析
+- 方針の提案
+
+いかなる場合でも、疑わしい場合は**ユーザーに確認を取ること**
