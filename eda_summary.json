@@ -1,0 +1,13 @@
+{
+  "total_samples": 630000,
+  "total_features": 21,
+  "numerical_features": 12,
+  "categorical_features": 9,
+  "target_distribution": {
+    "Low": 369917,
+    "Medium": 239074,
+    "High": 21009
+  },
+  "missing_values": 0,
+  "data_quality": "High"
+}
